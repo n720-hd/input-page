@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndiHome Number Input</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Your IndiHome Number</h1>
+    <form id="indihomeForm">
+      <label for="subscriptionNumber">Subscription Number</label>
+      <input
+        type="text"
+        id="subscriptionNumber"
+        name="subscriptionNumber"
+        placeholder="Enter your IndiHome number"
+        required
+      />
+      <button type="submit">Submit</button>
+      <p id="responseMsg" class="msg"></p>
+    </form>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
