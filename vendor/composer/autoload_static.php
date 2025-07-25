@@ -15,6 +15,10 @@ class ComposerStaticInit1c9a8f42640bf2466c751ac35f937aab
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WhichBrowser\\' => 13,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -23,6 +27,7 @@ class ComposerStaticInit1c9a8f42640bf2466c751ac35f937aab
         ),
         'P' => 
         array (
+            'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
         ),
@@ -47,6 +52,10 @@ class ComposerStaticInit1c9a8f42640bf2466c751ac35f937aab
     );
 
     public static $prefixDirsPsr4 = array (
+        'WhichBrowser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/whichbrowser/parser/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -58,6 +67,10 @@ class ComposerStaticInit1c9a8f42640bf2466c751ac35f937aab
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
         'PhpParser\\' => 
         array (
