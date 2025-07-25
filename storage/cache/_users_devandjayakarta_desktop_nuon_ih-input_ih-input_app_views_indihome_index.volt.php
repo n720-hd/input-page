@@ -34,6 +34,9 @@
             required
           />
         </div>
+        <div class="recaptcha-container">
+          <div class="g-recaptcha" data-sitekey="6Ld0to4rAAAAAE1uJ433PXqrGFMhLiuIStf_D4SV"></div>
+        </div>
         <button type="submit" class="submit-btn">Submit</button>
         <div id="responseMsg" class="response-msg">
           <div class="response-msg-content"></div>
@@ -41,6 +44,7 @@
       </form>
     </div>
   </div>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <script src="/js/script.js"></script>
 </body>

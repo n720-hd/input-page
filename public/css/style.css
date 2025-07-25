@@ -100,6 +100,26 @@ body {
   cursor: not-allowed;
 }
 
+.recaptcha-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  padding: 16px 0;
+}
+
+.recaptcha-container .g-recaptcha {
+  transform-origin: center;
+}
+
+/* Center reCAPTCHA on smaller screens */
+@media (max-width: 320px) {
+  .recaptcha-container .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: center;
+  }
+}
+
 .submit-btn {
   width: 100%;
   padding: 12px 24px;

@@ -21,3 +21,476 @@
 [2025-07-24T13:31:02+07:00][INFO] Subscription number stored successfully
 [2025-07-24T13:32:08+07:00][INFO] Subscription number stored successfully
 [2025-07-25T09:56:57+07:00][INFO] Subscription number stored successfully
+[2025-07-25T14:08:07+07:00][WARNING] Validation failed for subscription number
+[2025-07-25T14:08:11+07:00][INFO] Subscription number stored successfully
+[2025-07-25T14:18:39+07:00][ERROR] Exception in IndihomeController::getNumberAction
+[2025-07-25T14:18:40+07:00][ERROR] Exception in IndihomeController::getNumberAction
+[2025-07-25T14:19:27+07:00][ERROR] Exception in IndihomeController::getNumberAction
+[2025-07-25T14:24:10+07:00][WARNING] Validation failed for subscription number
+[2025-07-25T14:24:16+07:00][INFO] Subscription number stored successfully
+[2025-07-25T14:28:25+07:00][INFO] Subscription number stored successfully
+[2025-07-25T14:49:15+07:00][INFO] Subscription number stored successfully
+[2025-07-25T14:50:15+07:00][INFO] Subscription number stored successfully
+[2025-07-25T15:17:50.910060][INFO] REQUEST
+[2025-07-25T15:17:50.987265][INFO] RESPONSE
+[2025-07-25T15:18:41.336028][INFO] REQUEST {
+    "logger_id": "68833de151fea",
+    "method": "GET",
+    "uri": "/indihome",
+    "user_agent": "PostmanRuntime/7.44.1",
+    "client_ip": "::1",
+    "forwarded_ip": "",
+    "headers": {
+        "User-Agent": "PostmanRuntime/7.44.1",
+        "Accept": "*/*",
+        "Postman-Token": "444e1734-0ce3-4af6-8855-93d755135de8",
+        "Host": "localhost:8000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "post_data": [],
+    "get_data": [],
+    "raw_body": "",
+    "timestamp": "2025-07-25 15:18:41.000000"
+}
+[2025-07-25T15:18:41.354457][INFO] RESPONSE {
+    "logger_id": "68833de151fea",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:18:41.000000"
+}
+[2025-07-25T15:25:56.061867][INFO] 68833f940957b request: GET /indihome | {"browser":"Unknown","browser_version":"Unknown","os":"Unknown","os_version":"Unknown","device_type":"","device_model":"Unknown","device_manufacturer":"Unknown"}
+[2025-07-25T15:25:56.132012][INFO] RESPONSE {
+    "logger_id": "68833f940957b",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:25:56.000000"
+}
+[2025-07-25T15:26:53.334839][DEBUG] Raw User-Agent: PostmanRuntime/7.44.1
+[2025-07-25T15:26:53.336454][INFO] 68833fcd51a6b request: GET /indihome | {"raw_user_agent":"PostmanRuntime\/7.44.1","browser":"Unknown","browser_version":"Unknown","os":"Unknown","os_version":"Unknown","device_type":"","device_model":"Unknown","device_manufacturer":"Unknown"}
+[2025-07-25T15:26:53.403775][INFO] RESPONSE {
+    "logger_id": "68833fcd51a6b",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:26:53.000000"
+}
+[2025-07-25T15:26:58.194865][DEBUG] Raw User-Agent: PostmanRuntime/7.44.1
+[2025-07-25T15:26:58.197048][INFO] 68833fd22f901 request: GET /indihome | {"raw_user_agent":"PostmanRuntime\/7.44.1","browser":"Unknown","browser_version":"Unknown","os":"Unknown","os_version":"Unknown","device_type":"","device_model":"Unknown","device_manufacturer":"Unknown"}
+[2025-07-25T15:26:58.219163][INFO] RESPONSE {
+    "logger_id": "68833fd22f901",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:26:58.000000"
+}
+[2025-07-25T15:27:29.063889][DEBUG] Raw User-Agent: PostmanRuntime/7.44.1
+[2025-07-25T15:27:29.066276][INFO] 68833ff10f6ac request: POST /indihome/number | {"raw_user_agent":"PostmanRuntime\/7.44.1","browser":"Unknown","browser_version":"Unknown","os":"Unknown","os_version":"Unknown","device_type":"","device_model":"Unknown","device_manufacturer":"Unknown"}
+[2025-07-25T15:27:29.152056][INFO] Subscription number stored successfully
+[2025-07-25T15:27:29.153021][INFO] RESPONSE {
+    "logger_id": "68833ff10f6ac",
+    "status_code": 201,
+    "headers": {
+        "HTTP/1.1 201 Created": null,
+        "Status": "201 Created",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription number stored successfully\",\"data\":{\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\"}}",
+    "timestamp": "2025-07-25 15:27:29.000000"
+}
+[2025-07-25T15:28:39.942541][INFO] 68834037e59f4 request: POST /indihome/number | {"browser":"Postman","browser_version":"7.44.1","os":"Desktop Application","os_version":"Unknown","device_type":"API Client","device_model":"Unknown","device_manufacturer":"Unknown"}
+[2025-07-25T15:28:40.021357][WARNING] Duplicate subscription number attempted
+[2025-07-25T15:28:40.022479][INFO] RESPONSE {
+    "logger_id": "68834037e59f4",
+    "status_code": 400,
+    "headers": {
+        "HTTP/1.1 400 Bad Request": null,
+        "Status": "400 Bad Request",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":true,\"message\":\"Subscription number already exists\",\"data\":null}",
+    "timestamp": "2025-07-25 15:28:40.000000"
+}
+[2025-07-25T15:29:55.879633][INFO] 68834083d4c00 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"OS X","os_version":"Unknown","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple"}
+[2025-07-25T15:29:55.936229][INFO] RESPONSE {
+    "logger_id": "68834083d4c00",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:29:55.000000"
+}
+[2025-07-25T15:32:23.742611][INFO] 68834117ad2b0 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"platform":"macOS","mobile":false}}
+[2025-07-25T15:32:23.820190][INFO] RESPONSE {
+    "logger_id": "68834117ad2b0",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:32:23.000000"
+}
+[2025-07-25T15:32:25.521610][INFO] 688341197dbc3 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"platform":"macOS","mobile":false}}
+[2025-07-25T15:32:25.532348][INFO] RESPONSE {
+    "logger_id": "688341197dbc3",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:32:25.000000"
+}
+[2025-07-25T15:33:19.438136][INFO] 6883414f6a81b request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"platform":"macOS","mobile":false}}
+[2025-07-25T15:33:19.508056][INFO] RESPONSE {
+    "logger_id": "6883414f6a81b",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:33:19.000000"
+}
+[2025-07-25T15:35:09.487742][INFO] 688341bd76709 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:35:09.546719][INFO] RESPONSE {
+    "logger_id": "688341bd76709",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:35:09.000000"
+}
+[2025-07-25T15:35:11.965973][INFO] 688341bfeb7df request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:35:11.973665][INFO] RESPONSE {
+    "logger_id": "688341bfeb7df",
+    "status_code": 200,
+    "headers": {
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:35:11.000000"
+}
+[2025-07-25T15:36:34.047925][INFO] 688342120b3b0 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:36:34.121388][INFO] RESPONSE {
+    "logger_id": "688342120b3b0",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "Critical-CH": "Sec-CH-UA-Platform-Version",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:36:34.000000"
+}
+[2025-07-25T15:36:36.830334][INFO] 68834214ca4ba request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:36:36.841723][INFO] RESPONSE {
+    "logger_id": "68834214ca4ba",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "Critical-CH": "Sec-CH-UA-Platform-Version",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:36:36.000000"
+}
+[2025-07-25T15:36:51.037131][INFO] 6883422308c20 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:36:51.045319][INFO] RESPONSE {
+    "logger_id": "6883422308c20",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:36:51.000000"
+}
+[2025-07-25T15:37:11.637671][INFO] 688342379a75f request: GET /indihome | {"browser":"Safari","browser_version":"16.6","os":"iOS","os_version":"16.6","device_type":"mobile","device_model":"iPhone","device_manufacturer":"Apple","client_hints":[]}
+[2025-07-25T15:37:11.650703][INFO] RESPONSE {
+    "logger_id": "688342379a75f",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:11.000000"
+}
+[2025-07-25T15:37:19.085629][INFO] 6883423f0e839 request: GET /indihome | {"browser":"Safari","browser_version":"16.6","os":"iOS","os_version":"16.6","device_type":"mobile","device_model":"iPhone","device_manufacturer":"Apple","client_hints":[]}
+[2025-07-25T15:37:19.097459][INFO] RESPONSE {
+    "logger_id": "6883423f0e839",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:19.000000"
+}
+[2025-07-25T15:37:23.956044][INFO] 68834243e8dd0 request: GET /indihome | {"browser":"Safari","browser_version":"16.6","os":"iOS","os_version":"16.6","device_type":"mobile","device_model":"iPhone","device_manufacturer":"Apple","client_hints":[]}
+[2025-07-25T15:37:23.965406][INFO] RESPONSE {
+    "logger_id": "68834243e8dd0",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:23.000000"
+}
+[2025-07-25T15:37:49.204673][INFO] 6883425d310a5 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:37:49.213433][INFO] RESPONSE {
+    "logger_id": "6883425d310a5",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:49.000000"
+}
+[2025-07-25T15:37:52.079904][INFO] 68834260128ef request: GET /indihome | {"browser":"Postman","browser_version":"7.44.1","os":"Desktop Application","os_version":"Unknown","device_type":"API Client","device_model":"Unknown","device_manufacturer":"Unknown","client_hints":[]}
+[2025-07-25T15:37:52.096488][INFO] RESPONSE {
+    "logger_id": "68834260128ef",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:52.000000"
+}
+[2025-07-25T15:37:54.313736][INFO] 688342624b86f request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T15:37:54.327111][INFO] RESPONSE {
+    "logger_id": "688342624b86f",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 15:37:54.000000"
+}
+[2025-07-25T17:11:17.131478][INFO] 688358451966c request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:11:17.215856][INFO] RESPONSE {
+    "logger_id": "688358451966c",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 17:11:17.000000"
+}
+[2025-07-25T17:11:18.188346][INFO] 688358462dba0 request: GET /indihome | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:11:18.200592][INFO] RESPONSE {
+    "logger_id": "688358462dba0",
+    "status_code": 200,
+    "headers": {
+        "Accept-CH": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model,\n                    Sec-CH-UA-Arch",
+        "HTTP/1.1 200 OK": null,
+        "Status": "200 OK",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":false,\"message\":\"Subscription numbers retrieved successfully\",\"data\":[{\"id\":\"33c68b16-6931-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384755431\",\"created_at\":\"2025-07-25 15:27:29\",\"updated_at\":\"2025-07-25 15:27:29\",\"deleted_at\":null},{\"id\":\"005b27f0-692c-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756428\",\"created_at\":\"2025-07-25 14:50:15\",\"updated_at\":\"2025-07-25 14:50:15\",\"deleted_at\":null},{\"id\":\"dc94422a-692b-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756420\",\"created_at\":\"2025-07-25 14:49:15\",\"updated_at\":\"2025-07-25 14:49:15\",\"deleted_at\":null},{\"id\":\"f3ad187c-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756319\",\"created_at\":\"2025-07-25 14:28:25\",\"updated_at\":\"2025-07-25 14:28:25\",\"deleted_at\":null},{\"id\":\"5f1945c8-6928-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756311\",\"created_at\":\"2025-07-25 14:24:16\",\"updated_at\":\"2025-07-25 14:24:16\",\"deleted_at\":null},{\"id\":\"2044254a-6926-11f0-84d9-393250faf6df\",\"subscription_number\":\"1029384756123\",\"created_at\":\"2025-07-25 14:08:11\",\"updated_at\":\"2025-07-25 14:08:11\",\"deleted_at\":null}]}",
+    "timestamp": "2025-07-25 17:11:18.000000"
+}
+[2025-07-25T17:11:22.262927][INFO] 6883584a3f94e request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:11:22.266006][INFO] RESPONSE {
+    "logger_id": "6883584a3f94e",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:11:22.000000"
+}
+[2025-07-25T17:11:24.489391][INFO] 6883584c77138 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:11:24.490258][INFO] RESPONSE {
+    "logger_id": "6883584c77138",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:11:24.000000"
+}
+[2025-07-25T17:11:29.177405][INFO] 6883585129c0e request: GET / | {"browser":"Safari","browser_version":"16.6","os":"iOS","os_version":"16.6","device_type":"mobile","device_model":"iPhone","device_manufacturer":"Apple","client_hints":[]}
+[2025-07-25T17:11:29.177827][INFO] RESPONSE {
+    "logger_id": "6883585129c0e",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:11:29.000000"
+}
+[2025-07-25T17:15:42.287259][INFO] 6883594e45ac4 request: GET / | {"browser":"Safari","browser_version":"16.6","os":"iOS","os_version":"16.6","device_type":"mobile","device_model":"iPhone","device_manufacturer":"Apple","client_hints":[]}
+[2025-07-25T17:15:42.290726][INFO] RESPONSE {
+    "logger_id": "6883594e45ac4",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:15:42.000000"
+}
+[2025-07-25T17:15:44.550594][INFO] 68835950860ef request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:15:44.551222][INFO] RESPONSE {
+    "logger_id": "68835950860ef",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:15:44.000000"
+}
+[2025-07-25T17:15:46.174089][INFO] 688359522a16e request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:15:46.174747][INFO] RESPONSE {
+    "logger_id": "688359522a16e",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:15:46.000000"
+}
+[2025-07-25T17:15:54.739620][INFO] 6883595aae2d6 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:15:54.740258][INFO] RESPONSE {
+    "logger_id": "6883595aae2d6",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:15:54.000000"
+}
+[2025-07-25T17:16:03.395042][INFO] 688359635fc4d request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:16:03.396163][INFO] RESPONSE {
+    "logger_id": "688359635fc4d",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:16:03.000000"
+}
+[2025-07-25T17:17:45.915062][INFO] 688359c9dea49 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:17:45.915875][INFO] RESPONSE {
+    "logger_id": "688359c9dea49",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:17:45.000000"
+}
+[2025-07-25T17:20:02.859594][INFO] 68835a52d0a2a request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:20:02.862625][INFO] RESPONSE {
+    "logger_id": "68835a52d0a2a",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:20:02.000000"
+}
+[2025-07-25T17:21:11.648166][INFO] 68835a9797ea3 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:21:11.650170][INFO] RESPONSE {
+    "logger_id": "68835a9797ea3",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:21:11.000000"
+}
+[2025-07-25T17:21:18.664311][INFO] 68835a9ea1927 request: POST /indihome/number | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"platform":"macOS","mobile":false,"note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:21:18.789068][INFO] reCAPTCHA validation result
+[2025-07-25T17:21:18.864986][WARNING] Duplicate subscription number attempted
+[2025-07-25T17:21:18.865862][INFO] RESPONSE {
+    "logger_id": "68835a9ea1927",
+    "status_code": 400,
+    "headers": {
+        "HTTP/1.1 400 Bad Request": null,
+        "Status": "400 Bad Request",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":true,\"message\":\"Subscription number already exists\",\"data\":null}",
+    "timestamp": "2025-07-25 17:21:18.000000"
+}
+[2025-07-25T17:21:21.281176][INFO] 68835aa144225 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:21:21.282206][INFO] RESPONSE {
+    "logger_id": "68835aa144225",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:21:21.000000"
+}
+[2025-07-25T17:23:19.308785][INFO] 68835b174a3f2 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:23:19.315855][INFO] RESPONSE {
+    "logger_id": "68835b174a3f2",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:23:19.000000"
+}
+[2025-07-25T17:25:08.172030][INFO] 68835b84282f3 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:25:08.176137][INFO] RESPONSE {
+    "logger_id": "68835b84282f3",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:25:08.000000"
+}
+[2025-07-25T17:25:34.478591][INFO] 68835b9e74412 request: POST /indihome/number | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"platform":"macOS","mobile":false,"note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:25:34.593119][INFO] reCAPTCHA validation result
+[2025-07-25T17:25:34.597679][WARNING] Validation failed for subscription number
+[2025-07-25T17:25:34.598301][INFO] RESPONSE {
+    "logger_id": "68835b9e74412",
+    "status_code": 400,
+    "headers": {
+        "HTTP/1.1 400 Bad Request": null,
+        "Status": "400 Bad Request",
+        "Content-Type": "application/json"
+    },
+    "content": "{\"error\":true,\"message\":\"Subscription number must not exceed 14 characters\",\"data\":null}",
+    "timestamp": "2025-07-25 17:25:34.000000"
+}
+[2025-07-25T17:25:37.130850][INFO] 68835ba11efd5 request: GET / | {"browser":"Chrome","browser_version":"137.0.0.0","os":"macOS","os_version":"10.15.7","device_type":"desktop","device_model":"Macintosh","device_manufacturer":"Apple","client_hints":{"mobile":false,"platform":"macOS","note":"Enable high-entropy Client Hints for accurate OS version"}}
+[2025-07-25T17:25:37.131623][INFO] RESPONSE {
+    "logger_id": "68835ba11efd5",
+    "status_code": null,
+    "headers": [],
+    "content": "",
+    "timestamp": "2025-07-25 17:25:37.000000"
+}

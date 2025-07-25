@@ -35,5 +35,10 @@ return new \Phalcon\Config\Config([
         'logsDir'          => BASE_PATH . '/storage/logs/',     
         'cacheDir'         => BASE_PATH . '/storage/cache/',     
         'baseUri'          => '/',
+    ],
+    'logger' => [
+        'directory'  => $_ENV['LOG_DIRECTORY'] ?? BASE_PATH . '/storage/logs',
+        'filename'   => $_ENV['LOG_FILENAME'] ?? 'application.log',
+        'dateFormat' => $_ENV['LOG_DATE_FORMAT'] ?? 'Y-m-d\TH:i:s.u',
     ]
 ]);

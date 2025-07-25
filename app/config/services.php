@@ -125,7 +125,26 @@ $di->setShared('session', function () {
  * Logger service
  */
 $di->setShared('logger', function () {
-    $adapter = new \Phalcon\Logger\Adapter\Stream(BASE_PATH . '/storage/logs/application.log');
+    $config = $this->getConfig();
+    
+    // Use configured log directory or default to storage/logs
+    $logDir = isset($config->logger->directory) ? $config->logger->directory : BASE_PATH . '/storage/logs';
+    $logFile = isset($config->logger->filename) ? $config->logger->filename : 'application.log';
+    
+    // Ensure directory exists
+    if (!is_dir($logDir)) {
+        mkdir($logDir, 0755, true);
+    }
+    
+    $adapter = new \Phalcon\Logger\Adapter\Stream($logDir . '/' . $logFile);
+    
+    // Set custom formatter if configured
+    if (isset($config->logger->dateFormat)) {
+        $formatter = new \Phalcon\Logger\Formatter\Line();
+        $formatter->setDateFormat($config->logger->dateFormat);
+        $adapter->setFormatter($formatter);
+    }
+    
     $logger = new \Phalcon\Logger\Logger('main', [
         'main' => $adapter,
     ]);

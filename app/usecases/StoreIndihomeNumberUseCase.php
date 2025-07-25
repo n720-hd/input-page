@@ -70,7 +70,6 @@ class StoreIndihomeNumberUseCase
                     'success' => true,
                     'message' => 'Subscription number stored successfully',
                     'data' => [
-                        'id' => $indihomeNumber->id,
                         'subscription_number' => $indihomeNumber->subscription_number,
                         'created_at' => $indihomeNumber->created_at
                     ]
@@ -100,6 +99,11 @@ class StoreIndihomeNumberUseCase
                 $this->logger->error('Exception in StoreIndihomeNumberUseCase', [
                     'subscription_number' => $subscriptionNumber,
                     'error' => $e->getMessage(),
+                    'trace' => $e->getTraceAsString(),
+                    'exception' => $e->getMessage(),
+                    'file' => $e->getFile(),
+                    'line' => $e->getLine(),
+                    'code' => $e->getCode(),
                     'trace' => $e->getTraceAsString()
                 ]);
             }
